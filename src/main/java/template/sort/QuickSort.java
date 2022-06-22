@@ -1,4 +1,4 @@
-package template.quicksort;
+package template.sort;
 
 import java.util.Arrays;
 import java.util.Random;

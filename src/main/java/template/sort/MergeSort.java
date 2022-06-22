@@ -1,4 +1,4 @@
-package template.mergesort;
+package template.sort;
 
 public class MergeSort {
 

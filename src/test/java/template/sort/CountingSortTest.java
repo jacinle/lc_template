@@ -1,6 +1,7 @@
-package template.countingsort;
+package template.sort;
 
 import org.junit.jupiter.api.Test;
+import template.sort.CountingSort;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 

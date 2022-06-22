@@ -1,4 +1,4 @@
-package template.heap;
+package template.sort;
 
 // Java program for building Heap from Array
 

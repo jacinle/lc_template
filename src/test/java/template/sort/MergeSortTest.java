@@ -1,6 +1,7 @@
-package template.mergesort;
+package template.sort;
 
 import org.junit.jupiter.api.Test;
+import template.sort.MergeSort;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 

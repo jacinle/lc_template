@@ -1,7 +1,9 @@
-package template.countingsort;
+package template.sort;
 
 public class CountingSort {
-
+/*
+Counting sort is a linear time sorting algorithm that sort in O(n+k) time when elements are in the range from 1 to k.
+ */
     public int[] sort(int[] nums, int unique_no){
         int n = nums.length;
         int[] count = new int[unique_no];
