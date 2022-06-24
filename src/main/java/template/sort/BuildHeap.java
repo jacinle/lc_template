@@ -39,8 +39,8 @@ public class BuildHeap {
         int startIdx = (n / 2) - 1;
 
         // Perform reverse level order traversal
-        // from last non-leaf node and heapify
-        // each node
+        // from last non-leaf node to the top
+        // heapify each node
         for (int i = startIdx; i >= 0; i--) {
             heapify(arr, n, i);
         }
@@ -61,7 +61,8 @@ public class BuildHeap {
 
     // O(nlogn)
     public static void sort(int arr[]) {
-        // one by one , remove element from heap and called heapify
+        // one by one , remove element from top of heap, which is the max element and put it at the end.
+        // called heapify on reduced heap
         for(int i=arr.length-1; i>0; i--) {
             int temp = arr[0];
             arr[0] = arr[i];
